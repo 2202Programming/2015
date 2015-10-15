@@ -13,8 +13,8 @@
 #include "CameraControl.cpp"
 #include "AutoDelay.h"
 #include "DriveTest.cpp"
-#include "imu.h"
-#include "AHRS.h"
+#include "navX/IMU.h"
+#include "navX/AHRS.h"
 
 #define NUM_CONTROLLERS 7
 #define GRABBER 4

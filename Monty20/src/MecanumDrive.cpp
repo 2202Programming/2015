@@ -14,7 +14,7 @@
 #include "WPILib.h"
 #include "BeastSpeedControl.h"
 #include <JoystickClipper.cpp>
-#include "AHRS.h"
+#include "navX/AHRS.h"
 
 #include "MultiOutputPID.h"
 #define THRESHHOLD_RANGE 2 //measured in degrees

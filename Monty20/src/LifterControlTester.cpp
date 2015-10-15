@@ -5,7 +5,7 @@
  *      Author: Beasty
  */
 
-#include "WPIlib.h"
+#include "WPILib.h"
 #include "XboxController.h"
 
 class LifterControlTester {
