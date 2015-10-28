@@ -16,6 +16,7 @@
 #include "navX/IMU.h"
 #include "navX/AHRS.h"
 
+#define ENABLE_AHRS true
 #define NUM_CONTROLLERS 7
 #define GRABBER 4
 #define MOVE 3
@@ -312,14 +313,14 @@ private:
 	}
 
 	void TeleopPeriodic() {
-		
+
 		//TODO Encoders
 		SmartDashboard::PutNumber("FrontRight",FrontRight->GetRate());
 		SmartDashboard::PutNumber("FrontLeft",FrontLeft->GetRate());
 		SmartDashboard::PutNumber("RearRight",RearRight->GetRate());
 		SmartDashboard::PutNumber("RearLeft",RearLeft->GetRate());
 
-		
+
 		for (int i = 0; i < NUM_CONTROLLERS; i++) {
 
 			if (controllers[i] != NULL)
