@@ -16,6 +16,7 @@
 #include "navX/IMU.h"
 #include "navX/AHRS.h"
 
+#define ENABLE_AHRS true
 #define NUM_CONTROLLERS 7
 #define GRABBER 4
 #define MOVE 3
@@ -34,7 +35,7 @@
 #define AUTO_GTC AUTO_GT
 #define LEFT 0
 #define RIGHT 1
-#define ENABLE_AHRS true
+#define ENABLE_AHRS
 #define FrontLeftEncoderStart 2
 #define FrontLeftEncoderEnd 3
 #define FrontRightEncoderStart 0
