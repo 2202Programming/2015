@@ -37,6 +37,7 @@
  *   - TestPeriodic()
  *
  */
+#include "JoystickClipper.cpp"
 
 class IControl
 {
