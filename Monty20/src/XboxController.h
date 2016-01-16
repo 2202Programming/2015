@@ -1,8 +1,5 @@
 /*
- * XboxController.h
- *
- *  Created on: Jan 7, 2015
- *      Author: Beasty
+ * This is the old xbox code that we should delete for this year.
  */
 
 #ifndef SRC_XBOXCONTROLLER_H_
